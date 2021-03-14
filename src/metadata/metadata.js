@@ -23,15 +23,15 @@ module.exports = {
   ],
   jobs: [
     {
-      company: 'TransferWise',
-      title: 'Software Engineer Team Lead',
+      company: 'Wise (ex-TransferWise)',
+      title: 'Engineering Lead',
       written: 'June 2019 – present',
       badges: ['Agile', 'Java', 'CI/CD', 'AWS', 'SaaS', 'DevOps', 'Docker', 'Kubernetes', 'React'],
       contents: `Scaled EDD engineering to 7 cross-functional engineers, lead new product development and migration of legacy Java 8 / Groovy / PHP services to AWS K8s Java15+ microservices without downtime.`
     },
     {
       company: 'Akana - a Perforce company',
-      title: 'Software Engineer Team Lead',
+      title: 'Engineering Manager',
       written: 'Dec 2017 – May 2019',
       badges: ['Agile', 'Java', 'CI/CD', 'AWS', 'SaaS', 'DevOps', 'Docker'],
       contents: `Created the engineering site and lead a cross-functional team of Software engineers and Software engineers in Test. Improved software development practices by introducing Docker and CI/CD pipelines with Jenkins.`
