@@ -6,46 +6,91 @@ module.exports = {
     'Phone': '<a href="tel:+37255535270"><i class="fa fa-phone fact-icon"></i>+372 5553 5270</a>',
     'Email': '<a href="mailto:dasanjos@gmail.com"><i class="fa fa-envelope fact-icon"></i>dasanjos@gmail.com</a>'
   },
-  positions: [
+  experience: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      org: 'Wise (formerly TransferWise)',
+      title: 'Engineering Lead',
+      period: 'June 2019 – present',
+      skills: ['Agile', 'CI/CD', 'AWS', 'Docker', 'Kubernetes', 'Kafka', 'Java', 'Spring', 'React', 'TypeScript', 'PostgreSQL'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+Growing and leading a talented team of up to seven full stack engineers while still making technical contributions. Working closely with product managers, data analysts, operational leads and other engineering teams to make product and project decisions with a high level of autonomy. Leading new product development and maintenance of Java (Spring) microservices in AWS and Kubernetes without downtime.
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      org: 'Akana - a Perforce company',
+      title: 'Engineering Manager',
+      period: 'Dec 2017 – May 2019',
+      skills: ['Agile', 'Java', 'CI/CD', 'AWS', 'SaaS', 'DevOps', 'Docker'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Created the engineering site and lead a cross-functional team of Software engineers and Software engineers in Test. Improved software development practices by introducing Docker and CI/CD pipelines with Jenkins.
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      org: 'JRebel - a Perforce company',
+      title: 'Software Engineering Team Lead',
+      period: 'Aug 2014 – Dec 2017',
+      skills: ['Agile', 'Java', 'CI/CD', 'TDD', 'Pair Programming'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+Leading a cross-functional team of Software engineers with Agile methodologies. Oversee and improve software development methods, conventions and practices. Application architecture, development and migration to modern architectures.
+`
+    },
+    {
+      org: 'CGI Germany',
+      title: 'Lead CQ5/AEM Developer Consultant',
+      period: 'Apr 2014 - Jul 2014',
+      skills: ['Agile', 'Java', 'CI/CD', 'TDD', 'Pair Programming'],
+      contents: `
+Design, estimate and implement business solutions using CQ5/AEM6 as a platform. Implement Vodafone corporate site with AEM6.
+`
+    },
+    {
+      org: 'Swedbank Estonia',
+      title: 'Software Developer',
+      period: 'Nov 2012 – Apr 2014',
+      skills: ['Agile', 'Java', 'Spring', 'Hibernate'],
+      contents: `
+Design, estimate and implement business solutions using CQ5/AEM6 as a platform. Implement Vodafone corporate site with AEM6.
+`
+    },
+    {
+      org: 'Skype Estonia',
+      title: 'Software Development Engineer',
+      period: 'Jun 2010 – Nov 2012',
+      skills: ['Agile', 'Java', 'CQ5', 'HTML5', 'JavaScript', 'CSS3'],
+      contents: `
+Software development (Backend and Frontend) with Skype Frontend team. Transitioned Skype.com from static site to a Java based content management system (CQ5) resulting in 10x faster content turnaround.
+`
+    },
+    {
+      org: 'Aqris Software AS',
+      title: 'Java Developer and Scrum Master',
+      period: 'Oct 2008 – Jun 2010',
+      skills: ['Agile', 'Java', 'Spring', 'Hibernate'],
+      contents: `
+Software development (Backend and Frontend) with Skype Frontend team. Transitioned Skype.com from static site to a Java based content management system (CQ5) resulting in 10x faster content turnaround.
 `
     }
   ],
-  experience: [
+  certification: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+      name: 'Certified SCRUM Product Owner',
+      date: 'Aug 2012',
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
+      name: 'Certified SCRUM Master',
+      date: 'Aug 2011',
+    },
+    {
+      name: 'ISTQB Certified Tester Foundation Level',
+      date: 'Mar 2010',
+    },
+    {
+      name: 'Sun Certified Web Component Developer for J2EE (SCWCD 1.4)',
+      date: 'Aug 2007',
+    },
+    {
+      name: 'Sun Certified Java Programmer for J2SE (SCJP 1.4)',
+      date: 'Apr 2006',
+    },
   ]
 };

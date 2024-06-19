@@ -44,26 +44,24 @@
     </div>
 
     <div class="mb-5 pb-print-0 mb-print-1">
-        Brazilian engineering manager and hands-on tech lead with 18 years of experience and track record of building highly performant cross-functional teams and products. 
-        Used to working in an extremely fast-paced and highly autonomous environment in a fast growing FinTech unicorn. 
+        Brazilian engineering manager and hands-on tech lead with more than 18 years of experience in web technologies and building highly performant cross-functional teams and products. 
         Passionate about world culture and travel, learning new languages and new technologies.
     </div>
 
     <div class="mb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
-        <div>Bachelor degree in computer science at <a href="https://international.unb.br/"><i class="fa fa-rocket"></i>University of Brasilia (UnB)</a> - [2001 – 2005]</div>
+        <div>Bachelor degree in computer science at <a href="https://international.unb.br/"><i class="fa fa-file"></i>University of Brasilia (UnB)</a> - [2001 – 2005]</div>
     </div>
 
 
     <div class="border-bottom border-2 border-print-0 mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2 class="mb-4">Professional Experience</h2>
-        {{#each positions}}
+        <h2 class="mb-4">Experience</h2>
+        {{#each experience}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
-            <div class="col-md-2 pt-1">
-                {{ period }}
-            </div>
-            <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">{{ title }}</h3>
+            <div class="col-md-12">
+                <h3 class="fs-4 fw-normal">{{ title }} @ {{ org }}</h3>
+
+                <p>{{ period }}</p>
 
                 <div>{{{markdown contents }}}</div>
 
@@ -79,19 +77,13 @@
 
     <h2 class="mb-4">Certifications</h2>
 
-    {{#each experience}}
     <div class="mb-4">
-        <h3 class="fs-4 fw-normal">{{ header }}</h3>
-
-        {{{markdown contents }}}
-
-        <div>
-            {{#each skills }}
-            <span class="badge text-body border border-1">{{ this }}</span>
+        <ul>
+            {{#each certification}}
+            <li>{{ name }} [{{ date}}]</li>
             {{/each}}
-        </div>
+        </ul>
     </div>
-    {{/each}}
 </div>
 </body>
 </html>
