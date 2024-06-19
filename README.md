@@ -1,27 +1,8 @@
-# The Curriculum Vitae Template
+# Daniel Anjos - Curriculum Vitae
 
-You are a fantastic developer. Keep your CV on GitHub, exploiting Node.js GitHub action. Host it on GitHub Pages. Have both HTML and PDF versions automatically generated and consistent.
+Daniel CV (PDF and HTML) based on Curriculum Vitae Template project: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
 
-<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/f926a9cacef437021842aa53029d1b73fb03de15/svg/nodejs.svg" alt="nodejs Logo" width="40" height="40" /> &nbsp; &nbsp;
-<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/f926a9cacef437021842aa53029d1b73fb03de15/svg/npm.svg" alt="npm Logo" width="40" height="40" /> &nbsp; &nbsp;
-<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/f926a9cacef437021842aa53029d1b73fb03de15/svg/html.svg" alt="html Logo" width="40" height="40" /> &nbsp; &nbsp;
-<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/f926a9cacef437021842aa53029d1b73fb03de15/svg/css.svg" alt="css Logo" width="40" height="40" /> &nbsp; &nbsp;
-<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/f926a9cacef437021842aa53029d1b73fb03de15/svg/js.svg" alt="js Logo" width="40" height="40" /> 
-
-## What does this project do?
-
-* Helps you to manage your CV as a web app (HTML + CSS + JS).
-* Automatically generates and publishes HTML and PDF version on every push to `main`.
-
-Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
-
-Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
-
-## Motivation
-
-GitHub Pages is probably the best place developer could store their CV. Giving a potential employer a link to your CV stored on GitHub shows your intense desire for automation and stands you out.
-
-The idea behind **The Curriculum Vitae Template** is to provide anyone with a quick solution for creating and managing CVs (both HTML and PDF versions) with the help of GitHub.
+[http://dasanjos.github.io/cv](http://dasanjos.github.io/cv).
 
 ## Installation
 
@@ -43,5 +24,3 @@ The idea behind **The Curriculum Vitae Template** is to provide anyone with a qu
 The project uses [HandlebarsJS](https://github.com/wycats/handlebars.js/) as a template engine.
 
 The main HTML template is located in [src/templates/index.html](src/templates/index.html). Metadata for the template could be found in [src/metadata/metadata.js](src/metadata/metadata.js).
-
-Don't forget to update [src/assets/favicon.ico](src/assets/favicon.ico). You can generate a new favicon out of your photo with [icoconvert.com](http://icoconvert.com/).
