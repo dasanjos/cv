@@ -17,7 +17,10 @@
 <div class="container page">
     <div class="mb-5 pb-print-0 mb-print-1">
         <div class="row">
-            <div class="col-print-8 col-8 col-md-8 d-flex justify-content-between flex-column">
+            <div class="col-print-2 col-2 col-md-2">
+                <img src="{{ photo }}" class="profile-photo" alt="{{ name }}">
+            </div>
+            <div class="col-print-6 col-6 col-md-6 d-flex justify-content-between flex-column">
                 <div>
                     <h1 class="mb-0">{{ name }}</h1>
                     <div class="fs-3">{{ title }}</div>
@@ -28,6 +31,11 @@
                         <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>PDF version</a></span>
                         <span class="print">Latest version <a href="{{ baseUrl }}" class="text-nowrap"><i class="fa fa-globe"></i>{{ baseUrl }}</a></span>
                     </p>
+                    <div class="screen">
+                        {{#each social}}
+                        <a href="{{this}}" class="social-link"><i class="fa-brands fa-{{@key}}"></i></a>
+                        {{/each}}
+                    </div>
                 </div>
             </div>
             <div class="col-print-4 col-4 col-md-4">
@@ -44,13 +52,14 @@
     </div>
 
     <div class="mb-5 pb-print-0 mb-print-1">
-        Brazilian engineering manager and hands-on tech lead with more than 18 years of experience in web technologies and building highly performant cross-functional teams and products. 
-        Passionate about world culture and travel, learning new languages and new technologies.
+        {{{markdown summary }}}
     </div>
 
     <div class="mb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
-        <div>Bachelor degree in computer science at <a href="https://international.unb.br/"><i class="fa fa-file"></i>University of Brasilia (UnB)</a> - [2001 – 2005]</div>
+        {{#each education}}
+        <div>{{degree}} at <a href="{{url}}"><i class="fa fa-file"></i>{{school}}</a> - [{{period}}]</div>
+        {{/each}}
     </div>
 
 

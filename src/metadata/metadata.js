@@ -1,11 +1,20 @@
 module.exports = {
   name: 'Daniel Arruda Santos Anjos',
   title: 'Engineering Manager / Tech Lead',
+  photo: 'photo.jpg',
   facts: {
     'Address': '<a href="https://www.google.com/maps/place/Tallinn,+EE"><i class="fa fa-home fact-icon"></i>Tallinn, Estonia</a>',
     'Phone': '<a href="tel:+37255535270"><i class="fa fa-phone fact-icon"></i>+372 5553 5270</a>',
     'Email': '<a href="mailto:dasanjos@gmail.com"><i class="fa fa-envelope fact-icon"></i>dasanjos@gmail.com</a>'
   },
+  social: {
+    linkedin: '#',
+    github: '#'
+  },
+  summary: `
+Brazilian engineering manager and hands-on tech lead with more than 20 years of professional experience in web technologies and building highly performant cross-functional teams and products.
+Passionate about world culture and travel, learning new languages and new technologies.
+`,
   experience: [
     {
       org: 'Wise (formerly TransferWise)',
@@ -13,7 +22,7 @@ module.exports = {
       period: 'June 2019 – present',
       skills: ['Agile', 'CI/CD', 'AWS', 'Docker', 'Kubernetes', 'Kafka', 'Java', 'Spring', 'React', 'TypeScript', 'PostgreSQL'],
       contents: `
-Growing and leading a talented team of up to seven full stack engineers while still making technical contributions. Working closely with product managers, data analysts, operational leads and other engineering teams to make product and project decisions with a high level of autonomy. Leading new product development and maintenance of Java (Spring) microservices in AWS and Kubernetes without downtime.
+Growing and leading a talented team of up to seven full stack engineers while still making technical contributions. Working closely with product managers, data analysts, operational leads and other engineering teams to make product and project decisions with a high level of autonomy. Leading new product development and maintenance of Java (Spring) microservices in AWS and Kubernetes without downtime. Developing AI‑driven workflows (machine learning and large language models) for feedback analysis, routing, and automation.
 `
     },
     {
@@ -69,6 +78,14 @@ Software development (Backend and Frontend) with Skype Frontend team. Transition
       contents: `
 Software development (Backend and Frontend) with Skype Frontend team. Transitioned Skype.com from static site to a Java based content management system (CQ5) resulting in 10x faster content turnaround.
 `
+    }
+  ],
+  education: [
+    {
+      degree: 'Bachelor degree in computer science',
+      school: 'University of Brasilia (UnB)',
+      url: 'https://international.unb.br/',
+      period: '2001 – 2005'
     }
   ],
   certification: [

@@ -17,6 +17,31 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
+.profile-photo {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-link {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: var(--dark-color);
+}
+
+.social-link:hover {
+    color: var(--bs-primary);
+}
+
+.badge {
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+    background-color: #eee;
+    border-width: 0;
+    margin-right: 2px;
+}
+
 @media print {
     :root {
         --bs-body-color: #000;
@@ -90,19 +115,24 @@ h1, h2, h3, h4 {
 .fab,
 .fas,
 .fa {
-    text-decoration: none !important;
+    text-decoration: none;
     margin-right: 5px;
-}
-
-.badge {
-    font-weight: normal;
-    letter-spacing: 0.05rem;
 }
 
 @media print {
     .col-print-1 {
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
+    }
+
+    .col-print-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    .col-print-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
 
     .col-print-6 {
